@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./Node.css";
 
-export default class Node extends Component {
+class Node extends Component {
     render() {
         const {
             col,
@@ -33,3 +33,5 @@ export default class Node extends Component {
         );
     }
 }
+
+export default Node;

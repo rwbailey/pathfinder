@@ -66,7 +66,7 @@ export default class PathfindingVisualiser extends Component {
         }
     }
 
-    visualizeDijkstra() {
+    visualiseDijkstra() {
         const { grid } = this.state;
         const startNode = grid[START_NODE_ROW][START_NODE_COL];
         const finishNode = grid[FINISH_NODE_ROW][FINISH_NODE_COL];
@@ -82,8 +82,8 @@ export default class PathfindingVisualiser extends Component {
 
         return (
             <>
-                <button onClick={() => this.visualizeDijkstra()}>
-                    Visualize Dijkstra's Algorithm
+                <button onClick={() => this.visualiseDijkstra()}>
+                    Visualise Dijkstra's Algorithm
                 </button>
                 <div className="grid">
                     {grid.map((row, rowIdx) => {
