@@ -83,7 +83,7 @@ export default class PathfindingVisualiser extends Component {
         return (
             <>
                 <button onClick={() => this.visualiseDijkstra()}>
-                    Visualise Dijkstra's Algorithm
+                    Visualise Breadth First Search Algorithm
                 </button>
                 <div className="grid">
                     {grid.map((row, rowIdx) => {
